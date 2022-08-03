@@ -1,12 +1,17 @@
 ## Pointers
 
+**Installation**
+* npm install
+* or
+* yarn install
+
 **Run application**
 * npm start
 * npm run dev (To run via nodemon)
 
 **End Points**
 * Base Url: http://localhost:5000/v0
-* Get Product(GET): /product?id=1&currency=CAD (e.g.: http://localhost:5000/v0/product)
+* Get Product(GET): /product?id=1&currency=CAD (e.g.: http://localhost:5000/v0/product?id=1&currency=CAD)
 * List Product(POST): /product (e.g.: http://localhost:5000/v0/product)
 * - Payload ^ 
 * { "page": 1, "limit": 10, "currency": "USD" }
